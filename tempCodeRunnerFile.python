@@ -1,0 +1,14 @@
+# Even/ Odd test
+print("Please enter an integer: ")
+x = input()
+while True:
+    if int(x) % 2 == 0:
+        print("The number is even.")
+        break
+    elif int(x) % 2 != 0:
+        print("The number is odd.") 
+        print("Try again.")
+    input()
+print("Why are you quiting the easiest game? ")
+
+
